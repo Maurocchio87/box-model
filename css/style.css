@@ -1,0 +1,45 @@
+body,html{
+    margin: 0;
+}
+
+div:not(.tit){
+	border:1px solid black;
+}
+
+.marg{
+	background-color:#f9cc9d;
+    padding:0 40px 40px;
+    
+}
+
+.cont{
+	height:100px;
+	background-color:#eee;
+    line-height:100px;
+    text-align:center;
+}
+
+.padd{
+	background-color:#c3d08b;
+    padding:0 30px 30px;
+}
+
+.tit{
+    color:white;
+    text-align:center;
+}
+
+.bord{
+	background-color:#666;
+    padding:0 20px 20px;
+}
+
+.padd > .tit{
+	line-height:30px;
+}
+.bord > .tit{
+	line-height:20px;
+}
+.marg > .tit{
+	line-height:40px;
+}
